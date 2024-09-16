@@ -11,3 +11,13 @@ const Nav = () => {
         `;
 };
 Nav();
+const Footer () =>{
+    root.innerHTML += `
+    <footer>
+    <p>
+        &copy; 2024 Fake store. All rights reserved
+    </p>
+</footer>
+`;
+};
+Footer();
