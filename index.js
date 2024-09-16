@@ -1,6 +1,6 @@
-const root = document.querySelector("#root");
+const root = document.querySelector('#root');
 console.log(root);
-const Nav = (second) => {
+const Nav = () => {
     root.innerHTML += `
    <nav>
             <ul>
@@ -10,3 +10,4 @@ const Nav = (second) => {
         </nav>
         `;
 };
+Nav();
